@@ -1,0 +1,13 @@
+library(readxl)
+> Cluster_beans_2022 <- read_excel("C:/Users/admin/Desktop/Cluster_beans_2022.xlsx")
+There were 19 warnings (use warnings() to see them)
+> View(Cluster_beans_2022)
+> library(readxl)
+> Cluster_beans_2022 <- read_excel("C:/Users/admin/Desktop/Cluster_beans_2022.xlsx")
+There were 19 warnings (use warnings() to see them)
+> View(Cluster_beans_2022)
+> mean(Cluster_beans_2022$modal_price)
+[1] 4339.887
+> var(Cluster_beans_2022$modal_price)
+[1] 27037828
+> 
